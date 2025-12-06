@@ -88,4 +88,91 @@ All data is stored inside:
 
 
 
+## 🏃‍♂️ How to Run the Project
+
+### 🔧 **Backend**
+
+Install dependencies:
+
+npm install
+
+Start the backend API:
+
+npm start
+
+
+Backend runs on:
+
+http://localhost:5000/api/jobs
+
+
+---
+
+### 🎨 **Frontend**
+
+Simply open the file:
+
+frontend/index.html
+
+
+The frontend automatically connects to the backend.
+
+---
+
+### ▶ Example API Testing
+
+GET all jobs:
+
+GET http://localhost:5000/api/jobs
+
+
+Add a job:
+
+POST http://localhost:5000/api/jobs
+Body (JSON):
+{
+  "title": "Backend Developer",
+  "company": "Amazon",
+  "status": "Applied",
+  "notes": "Take-home assignment pending"
+}
+
+
+---
+
+
+## 📝 About This Project
+
+This full-stack CRUD Job Tracker demonstrates production-level skills:
+
+* API design
+* Data modeling
+* CRUD functionality
+* Client–server architecture
+* UI development
+* Routing & controllers
+* JSON persistence
+* Full GitHub workflow
+
+
+---
+
+
+## 🙋 For Recruiters
+
+This project highlights my ability to:
+
+* Build full-stack applications from scratch
+* Design and implement REST APIs
+* Create responsive user interfaces
+* Connect frontend ↔ backend
+* Handle CRUD operations
+* Structure clean, modular code
+* Use GitHub professionally
+
+If you’d like a walkthrough or to discuss this project, I’d love to connect!
+
+---
+
+
 
